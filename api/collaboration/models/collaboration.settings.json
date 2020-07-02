@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "collaborations",
+  "info": {
+    "name": "collaboration"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "brandName": {
+      "type": "string"
+    },
+    "usdz": {
+      "type": "string"
+    },
+    "animated": {
+      "type": "string"
+    },
+    "glb": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}
